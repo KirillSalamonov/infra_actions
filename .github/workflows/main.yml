@@ -71,7 +71,7 @@ jobs:
       with:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USER }}
-        key: ${{ secrets.SSH_KEY }}
+        key: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDMoCpxMluTRydjh+44Fnv8k2tBfcopIkbrOw968jhpENeugToYaniByk42hzreKGd0sdzy9bS1z58JUggfyzMNJJ7/Mv6MZedWGawSr2i+D1lFSrggJaPHMNBKzfj3glSOsGyRsoKtAkCtHUYxxjdlM7qUQ4iuGB9xFy28aiZC8/B/aLo6VeL0G7xqVjeHYPoHeHkzX43LbIT70wYsnIJNQnliPx8GT6z9AYuDWRFUqMScKQFykM2STaO01jQmdwMVf0/XNIsnemqLQ+0J9eUXAQI4fgcSkmgSgFUG/71kjAXuEGLyD4VWVvrKCWkC+kA8fLTliHyIQBcKmlrPVj/ZXIKhcF0bLIxDKyAVJ3udKMKC5v4pb628jCK4kJ5VIUqySu16ELLOSTSWcO+5/1QXecKNoOxxxAq7GAVa6hEHzvFhmJw9Z55KGSC+LHRWUVprnSRvwGzUeyqt1qZUC6fJnAVpWclciLvTgEHUbntdJ6AQFoiOkv2VF3i/i7AVJ48= salamonov_ka@OPIT-1
         passphrase: ${{ secrets.PASSPHRASE }}
         script: |
           sudo docker pull kirillsalamonov/infra_actions
